@@ -1,0 +1,147 @@
+{
+    "T24AT16" : {
+	"name": "Transalp Ambition Team 16", 
+	"id": "T24AT16",
+	"params": {
+	    "WS": 26,
+	    "BB": 30,
+	    "CS": 425,
+	    "ST": 405,
+	    "STCC": 320,
+	    "STA": 73,
+	    "TTT": 554,
+	    "TT": 570,
+	    "WB": 1062,
+	    "HT": 120,
+	    "HTA": 69.5,
+	    "SH": 690
+	}
+    },
+    "T24AT18" : {
+	"name": "Transalp Ambition Team 18", 
+	"id": "T24AT18",
+	"params": {
+	    "WS": 26,
+	    "BB": 30,
+	    "CS": 425,
+	    "ST": 460,
+	    "STCC": 380,
+	    "STA": 73,
+	    "TTT": 567,
+	    "TT": 590,
+	    "WB": 1083,
+	    "HT": 130,
+	    "HTA": 69.5,
+	    "SH": 740
+	}
+    },
+    "T24AT20" : {
+	"name": "Transalp Ambition Team 20", 
+	"id": "T24AT20",
+	"params": {
+	    "WS": 26,
+	    "BB": 30,
+	    "CS": 425,
+	    "ST": 505,
+	    "STCC": 425,
+	    "STA": 73,
+	    "TTT": 585,
+	    "TT": 610,
+	    "WB": 1103,
+	    "HT": 140,
+	    "HTA": 69.5,
+	    "SH": 790 
+	}
+    },
+    "T24AT22" : {
+	"name": "Transalp Ambition Team 22", 
+	"id": "T24AT22",
+	"params": {
+	    "WS": 26,
+	    "BB": 30,
+	    "CS": 425,
+	    "ST": 560,
+	    "STCC": 480,
+	    "STA": 73,
+	    "TTT": 608,
+	    "TT": 630,
+	    "WB": 1124,
+	    "HT": 150,
+	    "HTA": 69.5,
+	    "SH": 840
+	}
+    },
+    "T24S216" : {
+	"name": "Transalp Signature II 16", 
+	"id": "T24S216",
+	"params": {
+	    "WS": 26,
+	    "BB": 5,
+	    "CS": 433,
+	    "ST": 405,
+	    "STCC": 364,
+	    "STA": 73,
+	    "TTT": 554,
+	    "TT": 565,
+	    "WB": 1093,
+	    "HT": 110,
+	    "HTA": 69,
+	    "FUL": 1
+	}
+    },
+    "T24S218" : {
+	"name": "Transalp Signature II 18", 
+	"id": "T24S218",
+	"params": {
+	    "WS": 26,
+	    "BB": 5,
+	    "CS": 433,
+	    "ST": 460,
+	    "STCC": 370,
+	    "STA": 73,
+	    "TTT": 584,
+	    "TT": 595,
+	    "WB": 1114,
+	    "HT": 120,
+	    "HTA": 69,
+	    "FUL": 1
+	}
+    },
+    "T24S220" : {
+	"name": "Transalp Signature II 20", 
+	"id": "T24S220",
+	"params": {
+	    "WS": 26,
+	    "BB": 5,
+	    "CS": 433,
+	    "ST": 505,
+	    "STCC": 370,
+	    "STA": 73,
+	    "TTT": 604,
+	    "TT": 615,
+	    "WB": 1137,
+	    "HT": 130,
+	    "HTA": 69,
+	    "FUL": 1
+	}
+    },
+    "T24S222" : {
+	"name": "Transalp Signature II 22", 
+	"id": "T24S222",
+	"params": {
+	    "WS": 26,
+	    "BB": 5,
+	    "CS": 433,
+	    "ST": 560,
+	    "STCC": 370,
+	    "STA": 73,
+	    "TTT": 644,
+	    "TT": 650,
+	    "WB": 1168,
+	    "HT": 140,
+	    "HTA": 69,
+	    "FUL": 1
+	}
+    }
+}
+

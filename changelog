@@ -1,0 +1,13 @@
+2012-12-03 Marilen Corciovei <len@len.ro>
+
+	* frame.js: added SH calculation if not present
+
+2012-12-06 Marilen Corciovei <len@len.ro>
+
+	* transalp24.json: added all Transalp Ambition team frames data
+	* index.html, frame.js: added canvas detection and message for sites not supporting canvas (IE6, ... etc.)
+
+2012-12-12 Marilen Corciovei <len@len.ro>
+
+	* frame.js: added partial support to diferentiate fully frames with a geometry similar to the hardtails such as the Transalp Signature II
+	* index.html, frame.js: added randomColor support

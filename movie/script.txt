@@ -1,0 +1,22 @@
+"A picture is worth a thousand words"
+Frame Sketcher, sketch & compare bicycle frames
+
+
+Choosing a bicycle frame can be difficult, especially online...
+There are several measurements to bicycle frame which go beyond the simple 18'' or 20'' notation and it's not very easy to visualize all of them.
+
+I had the same problem a few months ago so I decided to write this tool, based on a simplified model, to help me take a more informed decision.
+
+Start with your inseam and a frame you already tested. Either choose an existing frame or enter the frame data.
+
+Not all manufacturers provide the same data, some provide top tube horizontal (TT) and top tube sloped other provide reach (RE) and stack (SK).
+
+Draw the inseam line and the selected frame.
+
+Hmm, the 18'' seemed a little small, how about the 20''?
+
+Not all 20'' are exactly the same, angles and length count too! 
+
+Not too mention 29'' ers.
+
+

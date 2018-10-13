@@ -1,0 +1,111 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family:verdana,helvetica,arial,sans-serif;
+    font-size: 11px;
+    background-color: #3B0B0B;
+}
+
+#drawFrames {
+    width: 800px;
+    border: 1px solid white;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #F5F6CE;
+    padding-bottom: 0px;
+}
+
+#unsupported {
+    width: 853px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #F5F6CE;
+    padding-bottom: 10px;
+}
+
+#unsupported #message {
+    font-size: 110%;
+    font-weight: bold;
+}
+
+#frameCanvas {
+    border-bottom: 1px solid #9C9898;
+    background-color: #FFFFFF;
+}
+
+input[type="text"] {
+    width: 40px;
+    border: 1px solid black;
+}
+
+:disabled {
+    border: 1px solid #929292!important;
+    background-color: #C2C2C2;
+}
+
+#WS {
+    margin-left: -4px;
+    width: 42px;
+}
+
+label {
+    margin-left: 20px;
+    width: 150px;
+    display: inline-block;
+}
+
+div {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#license, #license a{
+    background-color: #3B0B0B;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 90%;
+}
+
+#more {
+    margin-top: 50px;
+    font-size: 110%;
+}
+
+.color {
+    width: 60px;
+}
+
+.button {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: 14px/100% Arial, Helvetica, sans-serif;
+    padding: .5em 2em .55em;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    -webkit-border-radius: .5em; 
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+.button:hover {
+    text-decoration: none;
+}
+.button:active {
+    position: relative;
+    top: 1px;
+}
+
+/* border: #3B0913, gradient #801818 -> #471313 */
+#draw {
+    color: #FFFFFF;
+    border: solid 1px #3B0913;
+    background: #801818;
+    background: -webkit-gradient(linear, left top, left bottom, from(#801818), to(#471313));
+    background: -moz-linear-gradient(top,  #801818,  #471313);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#801818', endColorstr='#471313');
+}

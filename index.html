@@ -1,0 +1,87 @@
+<!DOCTYPE html> 
+<!-- Version $Id: index.html,v 1.14 2012/12/12 17:14:07 len Exp $ -->
+<html> 
+<head> 
+	<title>Frame Sketcher - Sketch & Compare bicycle frames</title> 
+	<meta name="author" content="www.len.ro"/>
+	<meta name="description" content="Sketch and compare bicycle frames"/>
+	<link rel="stylesheet" href="frame.css"/>
+	<script src="jquery-1.8.2.min.js"></script>
+	<script type="text/javascript" src="jscolor/jscolor.js"></script>
+	<script src="frame.js"></script>
+</head> 
+<body> 
+  <div id="drawFrames">	
+    <canvas id="frameCanvas" width="800" height="400"></canvas>
+    <br/>
+    <div class="dataGroup"><b>1. Enter inseam length:</b> <input type="text" id="inseam"/>mm (optional)</div>
+    <div class="dataGroup">
+      <div><b>2. Load</b> a saved frame <select id="frames"></select>
+      </div>
+    </div>
+    <div class="dataGroup">
+      <div><b>3. Select frame color</b>
+	<input class="color" value="000000" id="color"></input>
+	<img src="images/random-color.png" border="0" alt="Random color" title="Random color" id="randomColor" align="absmiddle"/>
+	and
+	<input type="button" id="draw" value="Sketch" class="button"></input>
+	it. Use different colors to differentiate between different frames.
+      </div>
+    </div>
+    <div class="dataGroup">
+    <div>or <b> enter/change frame measurements:</b></div>
+    <div>Enter all the values bellow. If you only have only one of ST or STCC you can assume the difference is around 60mm. Enter a positive value for the BB offset.</div> 
+    <div class="frameData">
+      <label for="WS">Wheel size (WS):</label>
+      <select id="WS">
+	<option value="26">26</option>
+	<option value="29">29</option>
+      </select>
+      inch
+    </div>
+    <div class="frameData">
+      <label for="BB">Bottom bracket (BB):</label><input type="text" class="frameDataInput" id="BB"/>mm
+      <label for="CS">Chain stays (CS):</label><input type="text" class="frameDataInput" id="CS"/>mm
+    </div>
+    <div class="frameData">
+      <label for="ST">Seat tube (ST):</label><input type="text" class="frameDataInput" id="ST"/>mm
+      <label for="STCC">ST center-center (STCC):</label><input type="text" class="frameDataInput" id="STCC"/>mm
+    <label for="STA">Seat tube angle (STA):</label><input type="text" class="frameDataInput" id="STA"/>&deg;
+    </div>
+    <div class="frameData">
+      <label for="WB">Wheel base (WB):</label><input type="text" class="frameDataInput" id="WB"/>mm
+      <label for="HT">Head tube (HT):</label><input type="text" class="frameDataInput" id="HT"/>mm
+      <label for="HTA">Head tube angle (HTA):</label><input type="text" class="frameDataInput" id="HTA"/>&deg;
+    </div>
+    <div>Different manufacturers provide different values. Enter either the <em>Reach</em> and <em>Stack</em> or the <em>Top tube horizontal</em> and <em>Top tube</em> measurements bellow.</div>
+    <div class="frameData">
+      <label for="RE">Reach (RE):</label><input type="text" class="frameDataInput" id="RE"/>mm
+      <label for="SK">Stack (SK):</label><input type="text" class="frameDataInput" id="SK"/>mm
+    </div>
+    <div class="frameData">
+      <label for="TT">Top tube horizontal (TT):</label><input type="text" class="frameDataInput" id="TT"/>mm
+      <label for="TTT">Top tube(TTT):</label><input type="text" class="frameDataInput" id="TTT"/>mm
+      <label for="SH">Standover height(SH):</label><input type="text" class="frameDataInput" id="SH" disabled="disabled"/>mm
+      <input type="hidden" class="frameDataInput" id="FUL"/>
+    </div>
+    <div class="dataGroup">
+      <div><b>4. Delete</b> existing data and <input type="button" id="clear" value="Start over"></input></div>
+    </div>
+    <div id="more">
+      <b>5. The above should be self explanatory. Please also note that:</b>
+      <ul>
+	<li>This tool is provided AS IS with no warranty whatsoever.</li>
+	<li>All rights reserved <a href="http://www.len.ro/">www.len.ro</a></li>
+	<li>The data and sketch are based on a simplified theoretical model and are intended to be orientative only.</li>
+	<li>It was developed and tested in Chromium on Linux. I briefly tested it in Firefox on Linux. I did not test it on windows or IE but I received untested feedback it works in IE9.</li>
+	<li>There is additional info about <a href="http://www.len.ro/cycling/bicycle-frame-draw-and-compare/" target="len_ro">the purpose</a>, <a href="http://www.len.ro/cycling/frame-sketcher-the-model/" target="len_ro">the model</a> and <a href="doc/frame.pdf" target="len_ro">the math<a> used.</li>
+	<li>I will appreciate constructive feedback. Leave a comment on one of the links above.</li>
+      </ul>
+    </div>
+    </div>
+    </div>
+    <div id="license">
+&copy; 2012 - 2013 &nbsp;<a href="http://www.len.ro/cycling">www.len.ro</a>
+    </div>
+</body>
+</html>
